@@ -11,16 +11,6 @@ import requests
 app = Flask(__name__)
 print(threading.current_thread().name)
 proxy = cycle([
-    'http://zdm:zdm123@114.67.89.210:20000',
-    'http://zdm:zdm123@114.67.89.210:20001',
-    'http://zdm:zdm123@114.67.89.210:20002',
-    'http://zdm:zdm123@114.67.89.210:20003',
-    'http://zdm:zdm123@114.67.89.210:20004',
-    'http://zdm:zdm123@114.67.89.210:20005',
-    'http://zdm:zdm123@114.67.89.210:20006',
-    'http://zdm:zdm123@114.67.89.210:20007',
-    'http://zdm:zdm123@114.67.89.210:20008',
-    'http://zdm:zdm123@114.67.89.210:20009',
 ])
 cookie = {}
 # 这个url是访问主页面的url
